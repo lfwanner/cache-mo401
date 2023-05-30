@@ -73,7 +73,7 @@ void multMat5( int n, float *A, float *B, float *C ) {
 #endif
 
 #ifndef MMORDER
-#define MMORDER 1
+#define MMORDER 0
 #endif
 
 float A[NMAX*NMAX];
@@ -89,7 +89,6 @@ double drand48(void)
   return (double)cycles;
 }
 
-/* uses timing features from sys/time.h that you haven't seen before */
 int main( int argc, char **argv ) {
 
     int i;
