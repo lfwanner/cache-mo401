@@ -11,7 +11,7 @@ Neste trabalho vamos analisar o impacto de configurações de cache e otimizaç�
    - Download de binários SiFive Freedom Tools: [Ubuntu](https://static.dev.sifive.com/dev-tools/freedom-tools/v2020.12/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14.tar.gz). [Outras versões](https://github.com/sifive/freedom-tools/releases/tag/v2020.12.0)
    - (Alternativa): [Build manual](https://github.com/riscv-collab/riscv-gnu-toolchain)
 
-2. Compile e instale o simulador Spike
+2. Compile e instale o simulador [Spike](https://github.com/riscv-software-src/riscv-isa-sim)
 
 3. Adicione os diretórios com binários das ferramentas e Spike ao path
 
@@ -40,4 +40,8 @@ Estude o código em `mmult.c`, que contém múltiplas versões de um algoritmo i
 
 4. Varie outros parâmetros da cache, como tamanho e uso de segundo nível, e analise e explique o impacto para o seu algoritmo e para a melhor e pior ordenações ingênuas. 
 
-Para entrega do trabalho, prepare um arquivo .zip com seu código, instruções para execução, e um breve relatório em formato Markdown ou PDF. Entregue via Classroom até a data limite. 
+
+## Entrega e aproveitamento
+
+Para entrega do trabalho, prepare um arquivo .zip com seu código, instruções para execução, e um breve relatório em formato Markdown ou PDF. Entregue via Classroom até a data limite. Quem entregar uma solução completa para o trabalho receberá bonus de até 2 pontos na nota total da prova, de acordo com a nota do trabalho. Só serão consideradas submissões com soluções que respondam todas as questões de implementação e análise (ainda que contendo eventuais erros).
+
