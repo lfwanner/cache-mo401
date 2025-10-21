@@ -1,4 +1,4 @@
-# Análise de desempenho de caches - MO401 - 1s2023
+# Análise de desempenho de caches - MO401 - 2s2025
 
 ## Objetivo geral
 
